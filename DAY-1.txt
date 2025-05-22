@@ -1,0 +1,176 @@
+100 Days Coding Challenge
+(DAY -1)
+
+________________________________________________________________________________________________________________________________________________
+
+HackerRank:
+Complete the function  to compute the sum of two integers.
+
+Example
+
+
+Return .
+
+Function Description
+
+Complete the  function with the following parameters:
+
+: the first value
+: the second value
+Returns
+- : the sum of  and 
+
+Constraints
+
+
+Sample Input
+
+a = 2
+b = 3
+Sample Output
+
+5
+
+
+CODE:
+______
+
+def solveMeFirst(a,b):
+    return a+b
+
+a=int(input())
+b=int(input())
+print(solveMeFirst(a,b))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LeetCode:
+2235. Add Two Integers
+Solved
+Easy
+Topics
+Companies
+Given two integers num1 and num2, return the sum of the two integers.
+ 
+
+Example 1:
+
+Input: num1 = 12, num2 = 5
+Output: 17
+Explanation: num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is returned.
+Example 2:
+
+Input: num1 = -10, num2 = 4
+Output: -6
+Explanation: num1 + num2 = -6, so -6 is returned.
+ 
+
+Constraints:
+
+-100 <= num1, num2 <= 100
+
+
+
+CODE:
+______
+
+class Solution:
+    def sum(self, num1: int, num2: int) -> int:
+        return num1+num2
+        
+
+
+
+
+
+
+CodeChef:
+Add Two Numbers
+Your task is very simple: given two integers 
+A
+A and 
+B
+B, write a program to add these two numbers and output the sum.
+
+Input Format
+The first line contains an integer 
+T
+T, the total number of test cases.
+Then follow 
+T
+T lines, each line contains two integers, 
+A
+A and 
+B
+B.
+Output Format
+For each test case, add 
+A
+A and 
+B
+B and display the sum in a new line.
+
+Constraints
+1
+≤
+T
+≤
+1000
+1≤T≤1000
+0
+≤
+A
+,
+B
+≤
+10000
+0≤A,B≤10000
+Sample 1:
+Input
+Output
+3
+1 2
+100 200
+10 40
+3
+300
+50
+Explanation:
+Testcase 1: 
+1
++
+2
+=
+3
+1+2=3. Hence the first output is 
+3
+3.
+
+Testcase 2: 
+100
++
+200
+=
+300
+100+200=300. Hence the second output is 
+300
+300.
+
+CODE:
+______
+t = int(input())
+for i in range(0,t):
+    a,b = map(int,input().split())
+    # write your code here
+    print(a+b)
